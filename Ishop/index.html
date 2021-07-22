@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title>Ishop</title>
+</head>
+
+<body>
+    <div id="container"></div>
+
+    <script src="https://unpkg.com/react@15/dist/react.js"></script>
+    <script src="https://unpkg.com/react-dom@15/dist/react-dom.js"></script>
+
+    <script src="Ishop.js"></script>
+    <link rel="stylesheet" type="text/css" href="Ishop.css" />
+
+    <script>
+
+        var productBase = [
+            { prodname: "карандаш", price: "50", photolink: "img/pencil.jpg", count: "20", code: 1 },
+            { prodname: "ручка", price: "100", photolink: "img/pen.jpg", count: "10", code: 2 },
+            { prodname: "линейка", price: "90", photolink: "img/lineika.jpg", count: "5", code: 3 },
+            { prodname: "ластик", price: "70", photolink: "img/lastik.jpg", count: "8", code: 4 },
+        ];
+        var tableHead = [
+            { colname: "Наименование", code: 1 },
+            { colname: "Цена", code: 2 },
+            { colname: "Ссылка на фото", code: 3 },
+            { colname: "Осталось на складе", code: 4 },
+        ];
+
+        ReactDOM.render(
+            React.createElement(Ishop, { tablehead: tableHead, products: productBase }),
+            document.getElementById('container')
+        );
+
+    </script>
+
+</body>
+
+</html>

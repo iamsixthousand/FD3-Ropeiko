@@ -1,0 +1,8 @@
+.hideAlert {
+visibility: hidden;
+color: red;
+}
+
+.showAlert {
+color:red;
+}

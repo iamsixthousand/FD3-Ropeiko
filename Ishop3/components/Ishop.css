@@ -1,0 +1,34 @@
+.Header 
+{
+  border: 1px solid black;
+  width: auto;
+  font-weight: bold;
+  background-color: gray;
+  text-align: left;
+}
+
+.Ishop .Item td 
+{
+  border: 1px solid black;
+  width: auto;
+  background-color: whitesmoke;
+  text-align: left;
+}
+
+.Selected 
+{
+  border: 1px solid black;
+  background-color: red;  
+}
+
+.Products {
+  border: 1px solid black;
+}
+.Disabled {
+  border: 1px solid black;
+  pointer-events: none;
+}
+
+.DisabledButton {
+  pointer-events: none;
+}

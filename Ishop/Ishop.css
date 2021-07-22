@@ -1,0 +1,26 @@
+.Ishop .Products 
+{
+  border: 1px solid black;
+  width: auto;
+  background-color: #F0F0F0;
+  text-align: left;
+}
+
+.Ishop .Header 
+{
+  border: 1px solid black;
+  width: auto;
+  font-weight: bold;
+  background-color: gray;
+  text-align: left;
+}
+
+.Ishop .Item .Column
+{
+  border: 1px solid black;
+  width: auto;
+  background-color: #F0F0F0;
+  text-align: left;
+}
+
+

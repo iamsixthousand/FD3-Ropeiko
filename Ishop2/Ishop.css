@@ -1,0 +1,26 @@
+.Header 
+{
+  border: 1px solid black;
+  width: auto;
+  font-weight: bold;
+  background-color: gray;
+  text-align: left;
+}
+
+.Ishop .Item td 
+{
+  border: 1px solid black;
+  width: auto;
+  background-color: whitesmoke;
+  text-align: left;
+}
+
+.Selected 
+{
+  border: 1px solid black;
+  background-color: red;  
+}
+
+table {
+  border: 1px solid black;
+}

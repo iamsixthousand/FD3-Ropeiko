@@ -1,0 +1,10 @@
+.Out {
+	overflow-y: scroll;
+	height: 100px;
+	width: 250px;
+	border: 1px solid black; 
+	margin-top: 7px;
+}
+.String {
+	display: block;
+}

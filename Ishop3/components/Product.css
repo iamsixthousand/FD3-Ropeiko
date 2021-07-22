@@ -1,0 +1,13 @@
+.Ishop .Item td 
+{
+  border: 1px solid black;
+  width: auto;
+  background-color: whitesmoke;
+  text-align: left;
+}
+
+.Selected 
+{
+  border: 1px solid black;
+  background-color: red;  
+}
