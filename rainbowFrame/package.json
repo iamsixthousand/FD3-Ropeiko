@@ -1,7 +1,7 @@
 {
   "name": "ishop3",
   "version": "1.0.0",
-  "description": "ishop3",
+  "description": "RainbowFrame",
   "main": "App.js",
   "scripts": {
     "build": ".\\node_modules\\.bin\\webpack",
